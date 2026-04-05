@@ -8,6 +8,6 @@ Simple rule-based recommendation system in Python.
 - Input Validation
 - Interest-based recommendations
 
-## Run
+##Run
 
 python main.py
