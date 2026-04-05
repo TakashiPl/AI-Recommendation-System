@@ -2,12 +2,12 @@
 
 Simple rule-based recommendation system in Python.
 
-##Features
+## Features
 
 - Age Classification
 - Input Validation
 - Interest-based recommendations
 
-##Run
+## Run
 
 python main.py
