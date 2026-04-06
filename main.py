@@ -11,7 +11,9 @@ def main():
 
     print("\n--- RESULT ---")
     if recommendations:
-        print("We recommend:", ", ".join(recommendations))
+        print("We recommend: ")
+        for k in recommendations: 
+           print(k["name"])
     else:
         print("No recommendations found. Try: games, music")
 
