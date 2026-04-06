@@ -1,4 +1,5 @@
-##TODO: Add tags to each block in DATA to better recommend the client games etc.
+#Later add more data and add tags to each
+
 
 DATA = [
     {
@@ -12,8 +13,18 @@ DATA = [
         "age_group": "adult"
     },
     {
+        "name": "Battlefield V",
+        "category": "games",
+        "age_group": "adult"
+    }, 
+    {
         "name": "Minecraft",
         "category": "games",
+        "age_group": "kid"
+    },
+    {
+        "name": "Disney Songs",
+        "category": "music",
         "age_group": "kid"
     },
     {
@@ -27,4 +38,3 @@ DATA = [
         "age_group": "teen"
     },
 ]
-
