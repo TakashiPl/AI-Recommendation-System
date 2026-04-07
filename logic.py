@@ -19,18 +19,15 @@ def get_recommendations(age, interest, debug=False):
     
 
     for d in DATA:
-        recommendations.append({"name": d["name"], "points" : 0})
+        obiekt = {"name": d["name"], "points" : 0}
         if debug:
             print(recommendations)
             print(d["category"])
         if d["category"] in interests:
-            for obj in recommendations:
-                if obj["name"] == d["name"]:
-                    obj["points"] += 3
+                    obiekt["points"] += 3
         if d["age_group"] == group:
-            for obj in recommendations:
-                if obj["name"] == d["name"]:
-                    obj["points"] += 2
+                    obiekt["points"] += 2
+        recommendations.append(obiekt)
 
     
     return heapq.nlargest(3, recommendations, key=lambda x: x['points'])
