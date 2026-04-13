@@ -1,12 +1,12 @@
 # AI Recommendation System
 
-Simple rule-based recommendation system in Python.
+Simple rule-based game recommendation system in Python.
 
 ## Features
 
 - Age Classification
 - Input Validation
-- Interest-based recommendations
+- Tags-based recommendations
 
 ## Run
 
