@@ -1,7 +1,5 @@
-#Later add more data and add tags to each
 
-
-DATA = [
+[
     {
         "name": "Fortnite",
         "category": "games",
@@ -44,20 +42,5 @@ DATA = [
             "multiplayer",
             "singleplayer"
         ]
-    },
-    {
-        "name": "Disney Songs",
-        "category": "music",
-        "age_group": "kid"
-    },
-    {
-        "name": "Skillet",
-        "category": "music",
-        "age_group": "adult"
-    },
-    {
-        "name": "Pop playlist",
-        "category": "music",
-        "age_group": "teen"
-    },
+    }
 ]
