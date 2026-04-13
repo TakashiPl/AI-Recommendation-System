@@ -3,11 +3,11 @@ from logic import get_recommendations
 
 def main():
     age = get_number("Enter your age: ", int, 0, 120)
-    interest = get_non_empty_string(
-        "Enter your interests (comma separated, e.g. games, music): "
-        )
+    tags = get_non_empty_string(
+        "Enter tags to search for your desired game (coma seperated, e.g. battleroyale): "
+    )
 
-    recommendations = get_recommendations(age, interest)
+    recommendations = get_recommendations(age, tags)
 
     print("\n--- RESULT ---")
     if recommendations:
