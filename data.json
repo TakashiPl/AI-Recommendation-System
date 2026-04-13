@@ -1,46 +1,127 @@
-
 [
     {
         "name": "Fortnite",
-        "category": "games",
         "age_group": "teen",
-        "tags":[
-            "multiplayer",
-            "shooter",
-            "competitive",
-            "battle royale"
-        ]
+        "tags": ["multiplayer", "shooter", "competitive", "battle royale", "online"]
     },
     {
         "name": "Elden Ring",
-        "category": "games",
         "age_group": "adult",
-        "tags": [
-            "soulslike",
-            "rpg",
-            "open world",
-            "dark fantasy"
-        ]
+        "tags": ["soulslike", "rpg", "open world", "dark fantasy", "difficult"]
     },
     {
         "name": "Battlefield V",
-        "category": "games",
         "age_group": "adult",
-        "tags": [
-            "fps",
-            "multiplayer",
-            "shooter",
-            "singleplayer"
-        ]
+        "tags": ["fps", "multiplayer", "shooter", "online"]
     }, 
     {
         "name": "Minecraft",
-        "category": "games",
         "age_group": "kid",
-        "tags": [
-            "sandbox",
-            "multiplayer",
-            "singleplayer"
-        ]
+        "tags": ["sandbox", "multiplayer", "singleplayer", "chill", "survival"]
+    },
+    {
+        "name": "Wiedźmin 3: Dziki Gon",
+        "age_group": "adult",
+        "tags": ["rpg", "open world", "story-rich", "singleplayer", "dark fantasy", "fantasy"]
+    },
+    {
+        "name": "Cyberpunk 2077",
+        "age_group": "adult",
+        "tags": ["rpg", "open world", "sci-fi", "fps", "singleplayer", "story-rich"]
+    },
+    {
+        "name": "The Legend of Zelda: Breath of the Wild",
+        "age_group": "teen",
+        "tags": ["open world", "adventure", "singleplayer", "rpg", "exploration"]
+    },
+    {
+        "name": "Animal Crossing: New Horizons",
+        "age_group": "kid",
+        "tags": ["sandbox", "chill", "multiplayer", "singleplayer", "casual"]
+    },
+    {
+        "name": "Rocket League",
+        "age_group": "kid",
+        "tags": ["multiplayer", "competitive", "sports", "online", "fast-paced"]
+    },
+    {
+        "name": "Valorant",
+        "age_group": "teen",
+        "tags": ["multiplayer", "shooter", "competitive", "fps", "online", "tactical"]
+    },
+    {
+        "name": "Red Dead Redemption 2",
+        "age_group": "adult",
+        "tags": ["open world", "story-rich", "shooter", "singleplayer", "adventure", "western"]
+    },
+    {
+        "name": "Super Mario Odyssey",
+        "age_group": "kid",
+        "tags": ["platformer", "adventure", "singleplayer", "chill", "exploration"]
+    },
+    {
+        "name": "Stardew Valley",
+        "age_group": "teen",
+        "tags": ["sandbox", "chill", "rpg", "multiplayer", "singleplayer", "farming", "casual"]
+    },
+    {
+        "name": "Hades",
+        "age_group": "teen",
+        "tags": ["roguelike", "action", "singleplayer", "story-rich", "rpg", "fast-paced"]
+    },
+    {
+        "name": "Apex Legends",
+        "age_group": "teen",
+        "tags": ["battle royale", "multiplayer", "fps", "shooter", "competitive", "fast-paced"]
+    },
+    {
+        "name": "The Sims 4",
+        "age_group": "teen",
+        "tags": ["simulation", "singleplayer", "casual", "sandbox"]
+    },
+    {
+        "name": "Grand Theft Auto V",
+        "age_group": "adult",
+        "tags": ["open world", "action", "multiplayer", "shooter", "story-rich"]
+    },
+    {
+        "name": "Hollow Knight",
+        "age_group": "teen",
+        "tags": ["metroidvania", "platformer", "indie", "dark fantasy", "difficult", "singleplayer"]
+    },
+    {
+        "name": "Portal 2",
+        "age_group": "teen",
+        "tags": ["puzzle", "co-op", "sci-fi", "story-rich", "singleplayer", "multiplayer"]
+    },
+    {
+        "name": "Among Us",
+        "age_group": "teen",
+        "tags": ["multiplayer", "social deduction", "casual", "online", "co-op"]
+    },
+    {
+        "name": "Terraria",
+        "age_group": "teen",
+        "tags": ["sandbox", "survival", "indie", "multiplayer", "adventure"]
+    },
+    {
+        "name": "League of Legends",
+        "age_group": "teen",
+        "tags": ["moba", "competitive", "multiplayer", "online", "fantasy"]
+    },
+    {
+        "name": "Doom Eternal",
+        "age_group": "adult",
+        "tags": ["fps", "action", "fast-paced", "singleplayer", "gore", "shooter"]
+    },
+    {
+        "name": "Forza Horizon 5",
+        "age_group": "kid",
+        "tags": ["racing", "open world", "multiplayer", "singleplayer", "realistic"]
+    },
+    {
+        "name": "Dark Souls III",
+        "age_group": "adult",
+        "tags": ["soulslike", "rpg", "dark fantasy", "difficult", "action", "singleplayer"]
     }
 ]
