@@ -21,4 +21,4 @@ if st.button("Find games"):
     st.write("Looking for games with tags:", user_tags)
     st.write("Games found:")
     for i,d in enumerate(get_recommendations(user_age,user_tags)):
-        st.write(i+1,":", d["name"])
+        st.write(f"{i+1}. **{d["name"]}** - Dopasowanie: {round(d["points"], 1)} pkt")
