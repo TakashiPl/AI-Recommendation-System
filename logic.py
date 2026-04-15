@@ -35,9 +35,10 @@ def get_recommendations(age, tag, debug=False):
     scores_list = similarity_scores.flatten()
     recommendations = []
     for index, score in enumerate(scores_list):
+        game = DATA[index]
         tag_points = score * 10
-        obiekt = {"name": DATA[index]["name"], "points": tag_points}
-        if DATA[index]["age_group"] == group:
+        obiekt = {"name": game["name"], "points": tag_points}
+        if game["age_group"] == group:
             obiekt["points"] += 2
         if obiekt["points"] > 0:
             recommendations.append(obiekt)
