@@ -18,7 +18,10 @@ user_tags = st.text_input("Which tags are you looking for? (e.g. rpg, shooter)")
 
 
 if st.button("Find games"):
-    st.write("Looking for games with tags:", user_tags)
-    st.write("Games found:")
-    for i,d in enumerate(get_recommendations(user_age,user_tags)):
-        st.write(f"{i+1}. **{d["name"]}** - Dopasowanie: {round(d["points"], 1)} pkt")
+    if user_tags.strip():
+        st.write("Looking for games with tags:", user_tags)
+        st.write("Games found:")
+        for i,d in enumerate(get_recommendations(user_age,user_tags)):
+            st.write(f"{i+1}. **{d["name"]}** - Dopasowanie: {round(d["points"], 1)} pkt")
+    else:
+        st.warning("You must enter at least one tag to get recommendations!")
